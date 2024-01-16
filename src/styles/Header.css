@@ -1,0 +1,33 @@
+header {
+  padding: 2rem;
+  color: white;
+  background-color: blue;
+}
+
+header > ul > li {
+  list-style: none;
+  padding: 1rem;
+}
+
+header > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+header > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header > ul {
+  display: flex;
+  margin-left: 8rem;
+}
+
+main {
+  padding: 2rem;
+}
