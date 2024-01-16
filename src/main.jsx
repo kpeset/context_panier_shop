@@ -1,5 +1,4 @@
 import React from "react";
-import { BasketProvider } from "./contexts/BasketContext.jsx";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
@@ -35,8 +34,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BasketProvider>
-      <RouterProvider router={router} />
-    </BasketProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

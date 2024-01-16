@@ -1,10 +1,4 @@
-import { useContext } from "react";
-import BasketContext from "../contexts/BasketContext";
-
 export default function Home() {
-  const { basket } = useContext(BasketContext);
-
-  console.info(basket);
   return (
     <>
       <h1>Accueil</h1>
